@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "454016935398",
+    "project_id": "amaf-27051",
+    "storage_bucket": "amaf-27051.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454016935398:android:4980442d34ea37fa01e227",
+        "android_client_info": {
+          "package_name": "com.mm_aragao3.appamaf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "454016935398-vo8sbgr724pepa6qg2rpuf0fc4mugbtu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mm_aragao3.appamaf",
+            "certificate_hash": "e21c39eb453377697e85262051dea99919ef79f2"
+          }
+        },
+        {
+          "client_id": "454016935398-8dibai1966dg4c843rj28j0o5dej9ge0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAb6KiAzQ0Bk7NPE4vZFYf-xSdOBjt_ioE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "454016935398-8dibai1966dg4c843rj28j0o5dej9ge0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
