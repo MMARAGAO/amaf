@@ -260,7 +260,7 @@ export default function Home() {
               longitude: data.local.long,
             }}
             image={{
-              uri: `https://github.com/MMARAGAO/amaf/blob/master/assets/markers/${data.name}.png?raw=true`,
+              uri: `https://raw.githubusercontent.com/MMARAGAO/amaf/main/assets/markers/${data.name}.png`,
             }}
             onPress={() => {
               setMarkerSelected(data as CombinedData);

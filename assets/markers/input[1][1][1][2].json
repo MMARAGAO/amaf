@@ -1,0 +1,962 @@
+[
+    {
+      "name": "Caqui",
+      "id": 52,
+      "family": "Ebenaceae",
+      "order": "Rosales",
+      "genus": "Diospyros",
+      "colheita": "Outubro a Dezembro",
+      "nutritions": {
+        "calories": 81,
+        "fat": 0,
+        "sugar": 18,
+        "carbohydrates": 18,
+        "protein": 0
+      }
+    },
+    {
+      "name": "Morango",
+      "id": 3,
+      "family": "Rosaceae",
+      "order": "Rosales",
+      "genus": "Fragaria",
+      "colheita": "Abril a Junho",
+      "nutritions": {
+        "calories": 29,
+        "fat": 0.4,
+        "sugar": 5.4,
+        "carbohydrates": 5.5,
+        "protein": 0.8
+      }
+    },
+    {
+      "name": "Banana",
+      "id": 1,
+      "family": "Musaceae",
+      "order": "Zingiberales",
+      "genus": "Musa",
+      "colheita": "Durante o ano todo (climas tropicais)",
+      "nutritions": {
+        "calories": 96,
+        "fat": 0.2,
+        "sugar": 17.2,
+        "carbohydrates": 22,
+        "protein": 1
+      }
+    },
+    {
+      "name": "Tomate",
+      "id": 5,
+      "family": "Solanaceae",
+      "order": "Solanales",
+      "genus": "Solanum",
+      "colheita": "Junho a Setembro",
+      "nutritions": {
+        "calories": 74,
+        "fat": 0.2,
+        "sugar": 2.6,
+        "carbohydrates": 3.9,
+        "protein": 0.9
+      }
+    },
+    {
+      "name": "Pera",
+      "id": 4,
+      "family": "Rosaceae",
+      "order": "Rosales",
+      "genus": "Pyrus",
+      "colheita": "Agosto a Outubro",
+      "nutritions": {
+        "calories": 57,
+        "fat": 0.1,
+        "sugar": 10,
+        "carbohydrates": 15,
+        "protein": 0.4
+      }
+    },
+    {
+      "name": "Durião",
+      "id": 60,
+      "family": "Malvaceae",
+      "order": "Malvales",
+      "genus": "Durio",
+      "colheita": "Junho a Agosto (em regiões tropicais, especialmente no Sudeste Asiático)",
+      "nutritions": {
+        "calories": 147,
+        "fat": 5.3,
+        "sugar": 6.75,
+        "carbohydrates": 27.1,
+        "protein": 1.5
+      }
+    },
+    {
+      "name": "Amora",
+      "id": 64,
+      "family": "Rosaceae",
+      "order": "Rosales",
+      "genus": "Rubus",
+      "colheita": "Julho a Setembro",
+      "nutritions": {
+        "calories": 40,
+        "fat": 0.4,
+        "sugar": 4.5,
+        "carbohydrates": 9,
+        "protein": 1.3
+      }
+    },
+    {
+      "name": "Mirtilo Vermelho",
+      "id": 65,
+      "family": "Ericaceae",
+      "order": "Ericales",
+      "genus": "Vaccinium",
+      "colheita": "Agosto a Outubro",
+      "nutritions": {
+        "calories": 50,
+        "fat": 0.34,
+        "sugar": 5.74,
+        "carbohydrates": 11.3,
+        "protein": 0.75
+      }
+    },
+    {
+      "name": "Kiwi",
+      "id": 66,
+      "family": "Actinidiaceae",
+      "order": "Struthioniformes",
+      "genus": "Apteryx",
+      "colheita": "outubro e abril",
+      "nutritions": {
+        "calories": 61,
+        "fat": 0.5,
+        "sugar": 9,
+        "carbohydrates": 15,
+        "protein": 1.1
+      }
+    },
+    {
+      "name": "Lichia",
+      "id": 67,
+      "family": "Sapindaceae",
+      "order": "Sapindales",
+      "genus": "Litchi",
+      "colheita": "Maio a Agosto",
+      "nutritions": {
+        "calories": 66,
+        "fat": 0.44,
+        "sugar": 15,
+        "carbohydrates": 17,
+        "protein": 0.8
+      }
+    },
+    {
+      "name": "Abacaxi",
+      "id": 10,
+      "family": "Bromeliaceae",
+      "order": "Poales",
+      "genus": "Ananas",
+      "colheita": "Durante o ano todo (climas tropicais)",
+      "nutritions": {
+        "calories": 50,
+        "fat": 0.12,
+        "sugar": 9.85,
+        "carbohydrates": 13.12,
+        "protein": 0.54
+      }
+    },
+    {
+      "name": "Figo",
+      "id": 68,
+      "family": "Moraceae",
+      "order": "Rosales",
+      "genus": "Ficus",
+      "colheita": "Junho a Outubro",
+      "nutritions": {
+        "calories": 74,
+        "fat": 0.3,
+        "sugar": 16,
+        "carbohydrates": 19,
+        "protein": 0.8
+      }
+    },
+    {
+      "name": "Groselha",
+      "id": 69,
+      "family": "Grossulariaceae",
+      "order": "Saxifragales",
+      "genus": "Ribes",
+      "colheita": "Junho a Setembro",
+      "nutritions": {
+        "calories": 44,
+        "fat": 0.6,
+        "sugar": 0,
+        "carbohydrates": 10,
+        "protein": 0.9
+      }
+    },
+    {
+      "name": "Maracujá",
+      "id": 70,
+      "family": "Passifloraceae",
+      "order": "Malpighiales",
+      "genus": "Passiflora",
+      "colheita": "Outubro a Março",
+      "nutritions": {
+        "calories": 97,
+        "fat": 0.7,
+        "sugar": 11.2,
+        "carbohydrates": 22.4,
+        "protein": 2.2
+      }
+    },
+    {
+      "name": "Ameixa",
+      "id": 71,
+      "family": "Rosaceae",
+      "order": "Rosales",
+      "genus": "Prunus",
+      "colheita": "Junho a Setembro",
+      "nutritions": {
+        "calories": 46,
+        "fat": 0.28,
+        "sugar": 9.92,
+        "carbohydrates": 11.4,
+        "protein": 0.7
+      }
+    },
+    {
+      "name": "Laranja",
+      "id": 2,
+      "family": "Rutaceae",
+      "order": "Sapindales",
+      "genus": "Citrus",
+      "colheita": "Novembro a Maio",
+      "nutritions": {
+        "calories": 43,
+        "fat": 0.2,
+        "sugar": 8.2,
+        "carbohydrates": 8.3,
+        "protein": 1
+      }
+    },
+    {
+      "name": "Maçã Verde",
+      "id": 72,
+      "family": "Rosaceae",
+      "order": "Rosales",
+      "genus": "Malus",
+      "colheita": "Agosto a Novembro",
+      "nutritions": {
+        "calories": 21,
+        "fat": 0.1,
+        "sugar": 6.4,
+        "carbohydrates": 3.1,
+        "protein": 0.4
+      }
+    },
+    {
+      "name": "Framboesa",
+      "id": 23,
+      "family": "Rosaceae",
+      "order": "Rosales",
+      "genus": "Rubus",
+      "colheita": "Junho a Setembro",
+      "nutritions": {
+        "calories": 53,
+        "fat": 0.7,
+        "sugar": 4.4,
+        "carbohydrates": 12,
+        "protein": 1.2
+      }
+    },
+    {
+      "name": "Melancia",
+      "id": 25,
+      "family": "Cucurbitaceae",
+      "order": "Cucurbitales",
+      "genus": "Citrullus",
+      "colheita": "Junho a Setembro",
+      "nutritions": {
+        "calories": 30,
+        "fat": 0.2,
+        "sugar": 6,
+        "carbohydrates": 8,
+        "protein": 0.6
+      }
+    },
+    {
+      "name": "Limão",
+      "id": 26,
+      "family": "Rutaceae",
+      "order": "Sapindales",
+      "genus": "Citrus",
+      "colheita": "Durante o ano todo",
+      "nutritions": {
+        "calories": 29,
+        "fat": 0.3,
+        "sugar": 2.5,
+        "carbohydrates": 9,
+        "protein": 1.1
+      }
+    },
+    {
+      "name": "Manga",
+      "id": 27,
+      "family": "Anacardiaceae",
+      "order": "Sapindales",
+      "genus": "Mangifera",
+      "colheita": "Março a Julho",
+      "nutritions": {
+        "calories": 60,
+        "fat": 0.38,
+        "sugar": 13.7,
+        "carbohydrates": 15,
+        "protein": 0.82
+      }
+    },
+    {
+      "name": "Mirtilo",
+      "id": 33,
+      "family": "Rosaceae",
+      "order": "Rosales",
+      "genus": "Fragaria",
+      "colheita": "Junho a Agosto",
+      "nutritions": {
+        "calories": 29,
+        "fat": 0.4,
+        "sugar": 5.4,
+        "carbohydrates": 5.5,
+        "protein": 0
+      }
+    },
+    {
+      "name": "Maçã",
+      "id": 6,
+      "family": "Rosaceae",
+      "order": "Rosales",
+      "genus": "Malus",
+      "colheita": "Agosto a Novembro",
+      "nutritions": {
+        "calories": 52,
+        "fat": 0.4,
+        "sugar": 10.3,
+        "carbohydrates": 11.4,
+        "protein": 0.3
+      }
+    },
+    {
+      "name": "Goiaba",
+      "id": 37,
+      "family": "Myrtaceae",
+      "order": "Myrtales",
+      "genus": "Psidium",
+      "colheita": "Durante o ano todo (em climas tropicais)",
+      "nutritions": {
+        "calories": 68,
+        "fat": 1,
+        "sugar": 9,
+        "carbohydrates": 14,
+        "protein": 2.6
+      }
+    },
+    {
+      "name": "Damasco",
+      "id": 35,
+      "family": "Rosaceae",
+      "order": "Rosales",
+      "genus": "Prunus",
+      "colheita": "Maio a Julho",
+      "nutritions": {
+        "calories": 15,
+        "fat": 0.1,
+        "sugar": 3.2,
+        "carbohydrates": 3.9,
+        "protein": 0.5
+      }
+    },
+    {
+      "name": "Melão",
+      "id": 41,
+      "family": "Cucurbitaceae",
+      "order": "Cucurbitaceae",
+      "genus": "Cucumis",
+      "colheita": "Junho a Setembro",
+      "nutritions": {
+        "calories": 34,
+        "fat": 0,
+        "sugar": 8,
+        "carbohydrates": 8,
+        "protein": 0
+      }
+    },
+    {
+      "name": "Tangerina",
+      "id": 77,
+      "family": "Rutaceae",
+      "order": "Sapindales",
+      "genus": "Citrus",
+      "colheita": "Novembro a Abril",
+      "nutritions": {
+        "calories": 45,
+        "fat": 0.4,
+        "sugar": 9.1,
+        "carbohydrates": 8.3,
+        "protein": 0
+      }
+    },
+    {
+      "name": "Pitaya",
+      "id": 78,
+      "family": "Cactaceae",
+      "order": "Caryophyllales",
+      "genus": "Cactaceae",
+      "colheita": "Junho a Outubro",
+      "nutritions": {
+        "calories": 36,
+        "fat": 0.4,
+        "sugar": 3,
+        "carbohydrates": 7,
+        "protein": 1
+      }
+    },
+    {
+      "name": "Lima",
+      "id": 44,
+      "family": "Rutaceae",
+      "order": "Sapindales",
+      "genus": "Citrus",
+      "colheita": "Durante o ano todo",
+      "nutritions": {
+        "calories": 25,
+        "fat": 0.1,
+        "sugar": 1.7,
+        "carbohydrates": 8.4,
+        "protein": 0.3
+      }
+    },
+    {
+      "name": "Romã",
+      "id": 79,
+      "family": "Lythraceae",
+      "order": "Myrtales",
+      "genus": "Punica",
+      "colheita": "Setembro a Novembro",
+      "nutritions": {
+        "calories": 83,
+        "fat": 1.2,
+        "sugar": 13.7,
+        "carbohydrates": 18.7,
+        "protein": 1.7
+      }
+    },
+    {
+      "name": "Fruta do Dragão",
+      "id": 80,
+      "family": "Cactaceae",
+      "order": "Caryophyllales",
+      "genus": "Selenicereus",
+      "colheita": "Junho a Outubro",
+      "nutritions": {
+        "calories": 60,
+        "fat": 1.5,
+        "sugar": 8,
+        "carbohydrates": 9,
+        "protein": 9
+      }
+    },
+    {
+      "name": "Uva",
+      "id": 81,
+      "family": "Vitaceae",
+      "order": "Vitales",
+      "genus": "Vitis",
+      "colheita": "Julho a Outubro",
+      "nutritions": {
+        "calories": 69,
+        "fat": 0.16,
+        "sugar": 16,
+        "carbohydrates": 18.1,
+        "protein": 0.72
+      }
+    },
+    {
+      "name": "Amora Ásiatica",
+      "id": 82,
+      "family": "Moraceae",
+      "order": "Rosales",
+      "genus": "Morus",
+      "colheita": "Junho a Agosto",
+      "nutritions": {
+        "calories": 43,
+        "fat": 0.39,
+        "sugar": 8.1,
+        "carbohydrates": 9.8,
+        "protein": 1.44
+      }
+    },
+    {
+      "name": "Feijoa",
+      "id": 76,
+      "family": "Myrtaceae",
+      "order": "Myrtoideae",
+      "genus": "Sellowiana",
+      "colheita": "Outubro a Dezembro",
+      "nutritions": {
+        "calories": 44,
+        "fat": 0.4,
+        "sugar": 3,
+        "carbohydrates": 8,
+        "protein": 0.6
+      }
+    },
+    {
+      "name": "Avocado",
+      "id": 84,
+      "family": "Lauraceae",
+      "order": "Laurales",
+      "genus": "Persea",
+      "colheita": "Outubro a Abril (em regiões tropicais)",
+      "nutritions": {
+        "calories": 160,
+        "fat": 14.66,
+        "sugar": 0.66,
+        "carbohydrates": 8.53,
+        "protein": 2
+      }
+    },
+    {
+      "name": "Kiwifruit",
+      "id": 85,
+      "family": "Actinidiaceae",
+      "order": "Ericales",
+      "genus": "Actinidia",
+      "colheita": "Outubro a Abri",
+      "nutritions": {
+        "calories": 61,
+        "fat": 0.5,
+        "sugar": 8.9,
+        "carbohydrates": 14.6,
+        "protein": 1.14
+      }
+    },
+    {
+      "name": "Oxicoco",
+      "id": 87,
+      "family": "Ericaceae",
+      "order": "Ericales",
+      "genus": "Vaccinium",
+       "colheita": "Setembro a Novembro",
+      "nutritions": {
+        "calories": 46,
+        "fat": 0.1,
+        "sugar": 4,
+        "carbohydrates": 12.2,
+        "protein": 0.4
+      }
+    },
+    {
+      "name": "Cereja",
+      "id": 9,
+      "family": "Rosaceae",
+      "order": "Rosales",
+      "genus": "Prunus",
+      "colheita": "Junho a Julho",
+      "nutritions": {
+        "calories": 50,
+        "fat": 0.3,
+        "sugar": 8,
+        "carbohydrates": 12,
+        "protein": 1
+      }
+    },
+    {
+      "name": "Pêssego",
+      "id": 86,
+      "family": "Rosaceae",
+      "order": "Rosales",
+      "genus": "Prunus",
+      "colheita": "Junho a Setembro",
+      "nutritions": {
+        "calories": 39,
+        "fat": 0.25,
+        "sugar": 8.4,
+        "carbohydrates": 9.5,
+        "protein": 0.9
+      }
+    },
+    {
+      "name": "Jaca",
+      "id": 94,
+      "family": "Moraceae",
+      "order": "Rosales",
+      "genus": "Artocarpus",
+      "colheita": "Junho a Agosto",
+      "nutritions": {
+        "calories": 95,
+        "fat": 0,
+        "sugar": 19.1,
+        "carbohydrates": 23.2,
+        "protein": 1.72
+      }
+    },
+    {
+      "name": "Kiwano",
+      "id": 95,
+      "family": "Cucurbitaceae",
+      "order": "Cucurbitales",
+      "genus": "Cucumis",
+      "colheita": "Outubro a Abril",
+      "nutritions": {
+        "calories": 44,
+        "fat": 1.26,
+        "sugar": 0.5,
+        "carbohydrates": 7.56,
+        "protein": 1.78
+      }
+    },
+    {
+      "name": "Avelã",
+      "id": 96,
+      "family": "Betulaceae",
+      "order": "Fagales",
+      "genus": "Corylus",
+      "colheita": "Setembro a Outubro",
+      "nutritions": {
+        "calories": 628,
+        "fat": 61,
+        "sugar": 4.3,
+        "carbohydrates": 17,
+        "protein": 15
+      }
+    },
+    {
+      "name": "Laranja Pomelo",
+      "id": 98,
+      "family": "Rutaceae",
+      "order": "Sapindales",
+      "genus": "Citrus",
+      "colheita": "Outubro a Maio",
+      "nutritions": {
+        "calories": 37,
+        "fat": 0,
+        "sugar": 8.5,
+        "carbohydrates": 9.67,
+        "protein": 0.82
+      }
+    },
+    {
+      "name": "Mangostão",
+      "id": 99,
+      "family": "Clusiaceae",
+      "order": "Malpighiales",
+      "genus": "Garcinia",
+      "colheita": "Junho a Setembro",
+      "nutritions": {
+        "calories": 73,
+        "fat": 0.58,
+        "sugar": 16.11,
+        "carbohydrates": 17.91,
+        "protein": 0.41
+      }
+    },
+    {
+      "name": "Abóbora",
+      "id": 100,
+      "family": "Cucurbitaceae",
+      "order": "Cucurbitales",
+      "genus": "Cucurbita",
+      "colheita": "Setembro a Novembro",
+      "nutritions": {
+        "calories": 25,
+        "fat": 0.3,
+        "sugar": 3.3,
+        "carbohydrates": 4.6,
+        "protein": 1.1
+      }
+    },
+    {
+      "name": "Caqui Japonês",
+      "id": 101,
+      "family": " Ebenaceae",
+      "order": " Ericales",
+      "genus": "Diospyros",
+      "colheita": "Outubro a Dezembro",
+      "nutritions": {
+        "calories": 70,
+        "fat": 0.2,
+        "sugar": 13,
+        "carbohydrates": 19,
+        "protein": 0.6
+      }
+    },
+    {
+      "name": "Mamão",
+      "id": 42,
+      "family": "Caricaceae",
+      "order": "Brassicales",
+      "genus": "Carica",
+      "colheita": "Durante o ano todo (em climas tropicais)",
+      "nutritions": {
+        "calories": 39,
+        "fat": 0.3,
+        "sugar": 4.4,
+        "carbohydrates": 5.8,
+        "protein": 0.5
+      }
+    },
+    {
+      "name": "Anona",
+      "id": 103,
+      "family": "Annonaceae",
+      "order": "Rosales",
+      "genus": "Annonas",
+      "colheita": "Durante o ano todo (em climas tropicais)",
+      "nutritions": {
+        "calories": 92,
+        "fat": 0.29,
+        "sugar": 3.4,
+        "carbohydrates": 19.1,
+        "protein": 1.5
+      }
+    },
+    {
+      "name": "Groselha do Ceilão",
+      "id": 104,
+      "family": "Salicaceae",
+      "order": "Malpighiales",
+      "genus": "Dovyalis",
+      "colheita": "Junho a Agosto",
+      "nutritions": {
+        "calories": 47,
+        "fat": 0.3,
+        "sugar": 8.1,
+        "carbohydrates": 9.6,
+        "protein": 1.2
+      }
+    },
+    {
+      "name": "Tamarindo",
+      "id": 105,
+      "family": "Fabaceae",
+      "order": "Fabales",
+      "genus": "Tamarindus",
+      "colheita": "Durante o ano todo (em climas tropicais)",
+      "nutritions": {
+        "calories": 239,
+        "fat": 0.4,
+        "sugar": 38.3,
+        "carbohydrates": 62.5,
+        "protein": 2.8
+      }
+    },
+    {
+      "name": "Caju",
+      "id": 107,
+      "family": "Anacardiaceae",
+     "order": "Sapindales",
+     "genus": "Anacardium",
+     "colheita": "Durante o ano todo (em climas tropicais)",
+      "nutritions": {
+        "calories": 43,
+       "fat": 0.3,
+        "sugar": 8.4,
+        "carbohydrates": 10.3,
+       "protein": 0.8
+    }
+  },
+  {
+    "name": "Pequi",
+    "id": 108,
+    "family": "Caryocaraceae",
+    "order": "Caryophyllales",
+    "genus": "Caryocar",
+    "colheita": "Outubro a Dezembro",
+    "nutritions": {
+      "calories": 180,
+      "fat": 9.7,
+      "sugar": 1.8,
+      "carbohydrates": 15.3,
+      "protein": 4.1
+    }
+  },
+  {
+    "name": "Carambola",
+    "id": 109,
+    "family": "Oxalidaceae",
+    "order": "Oxalidales",
+    "genus": "Averrhoa",
+    "colheita": "Durante o ano todo (em climas tropicais)",
+    "nutritions": {
+      "calories": 31,
+      "fat": 0.3,
+      "sugar": 3.6,
+      "carbohydrates": 6.7,
+      "protein": 1.0
+    }
+  },
+  {
+    "name": "Acerola",
+    "id": 110,
+    "family": "Malpighiaceae",
+    "order": "Malpighiales",
+    "genus": "Malpighia",
+    "colheita": "Durante o ano todo (em climas tropicais)",
+    "nutritions": {
+      "calories": 32,
+      "fat": 0.2,
+      "sugar": 6.0,
+      "carbohydrates": 7.7,
+      "protein": 0.6
+    }
+  },
+  {
+    "name": "Coco",
+    "id": 111,
+    "family": "Arecaceae",
+    "order": "Arecales",
+    "genus": "Cocos",
+    "colheita": "Durante o ano todo (em climas tropicais)",
+    "nutritions": {
+      "calories": 354,
+      "fat": 33.5,
+      "sugar": 6.2,
+      "carbohydrates": 15.2,
+      "protein": 3.3
+    }
+  },
+  {
+    "name": "Tâmara",
+    "id": 112,
+    "family": "Arecaceae",
+    "order": "Arecales",
+    "genus": "Phoenix",
+    "colheita": "Setembro a Dezembro",
+    "nutritions": {
+      "calories": 277,
+      "fat": 0.2,
+      "sugar": 63.4,
+      "carbohydrates": 75.0,
+      "protein": 1.8
+    }
+  },
+  {
+    "name": "Graviola",
+    "id": 113,
+    "family": "Annonaceae",
+    "order": "Magnoliales",
+    "genus": "Annona",
+    "colheita": "Novembro a Maio",
+    "nutritions": {
+      "calories": 66,
+      "fat": 0.3,
+      "sugar": 14.0,
+      "carbohydrates": 16.8,
+      "protein": 1.0
+    }
+  },
+  {
+    "name": "Longan",
+    "id": 114,
+    "family": "Sapindaceae",
+    "order": "Sapindales",
+    "genus": "Dimocarpus",
+    "colheita": "Julho a Outubro",
+    "nutritions": {
+      "calories": 60,
+      "fat": 0.1,
+      "sugar": 14.1,
+      "carbohydrates": 15.1,
+      "protein": 1.0
+    }
+  },
+  {
+    "name": "Duku",
+    "id": 115,
+    "family": "Meliaceae",
+    "order": "Sapindales",
+    "genus": "Lansium",
+    "colheita": "Junho a Setembro",
+    "nutritions": {
+      "calories": 50,
+      "fat": 0.1,
+      "sugar": 11.0,
+      "carbohydrates": 12.0,
+      "protein": 0.8
+    }
+  },
+  {
+    "name": "Jabuticaba",
+    "id": 116,
+    "family": "Myrtaceae",
+    "order": "Myrtales",
+    "genus": "Plinia",
+    "colheita": "Agosto a Setembro",
+    "nutritions": {
+      "calories": 58,
+      "fat": 0.2,
+      "sugar": 13.5,
+      "carbohydrates": 15.0,
+      "protein": 0.6
+    }
+  },
+  {
+    "name": "Ora-pro-nóbis",
+    "id": 117,
+    "family": "Cactaceae",
+    "order": "Caryophyllales",
+    "genus": "Pereskia",
+    "colheita": "Ano todo",
+    "nutritions": {
+      "calories": 26,
+      "fat": 0.1,
+      "sugar": 0.0,
+      "carbohydrates": 5.0,
+      "protein": 3.2
+    }
+  },
+  {
+    "name": "Abacate",
+    "id": 118,
+    "family": "Lauraceae",
+    "order": "Laurales",
+    "genus": "Persea",
+    "colheita": "Fevereiro a Agosto",
+    "nutritions": {
+      "calories": 160,
+      "fat": 15.0,
+      "sugar": 0.7,
+      "carbohydrates": 9.0,
+      "protein": 2.0
+    }
+  },
+  {
+    "name": "Uva Verde",
+    "id": 119,
+    "family": "Vitaceae",
+    "order": "Vitales",
+    "genus": "Vitis",
+    "colheita": "Janeiro a Junho",
+    "nutritions": {
+      "calories": 69,
+      "fat": 0.2,
+      "sugar": 15.0,
+      "carbohydrates": 18.0,
+      "protein": 0.7
+    }
+  },
+  {
+    "name": "Cana-de-açúcar",
+    "id": 120,
+    "family": "Poaceae",
+    "order": "Poales",
+    "genus": "Saccharum",
+    "colheita": "Maio a Outubro",
+    "nutritions": {
+      "calories": 269,
+      "fat": 0.0,
+      "sugar": 73.0,
+      "carbohydrates": 73.0,
+      "protein": 0.2
+    }
+  }
+]
