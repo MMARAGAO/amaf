@@ -5,7 +5,14 @@ import React, {
   useRef,
   useContext,
 } from "react";
-import { View, TextInput, TouchableOpacity, Text, Linking } from "react-native";
+import {
+  View,
+  TextInput,
+  TouchableOpacity,
+  Text,
+  Linking,
+  Image,
+} from "react-native";
 import MapView, { Marker } from "react-native-maps";
 import * as Location from "expo-location";
 import axios from "axios";
@@ -25,6 +32,7 @@ import Entypo from "@expo/vector-icons/Entypo";
 interface CombinedData {
   id_localização: number;
   id_fruta: number;
+  id_img: string;
   local: {
     lat: number;
     long: number;
@@ -88,7 +96,7 @@ export default function Home() {
           return location;
         }
       });
-      setData(combinedData as CombinedData[]);
+      setData(combinedData as unknown as CombinedData[]);
     }
   }, [fruitData, locationData]);
 
@@ -254,13 +262,13 @@ export default function Home() {
       >
         {data.map((data) => (
           <Marker
-            key={data.id_fruta}
+            key={data.id + data.id_localização}
             coordinate={{
               latitude: data.local.lat,
               longitude: data.local.long,
             }}
             image={{
-              uri: `https://raw.githubusercontent.com/MMARAGAO/amaf/main/assets/markers/${data.name}.png`,
+              uri: `https://firebasestorage.googleapis.com/v0/b/amaf-27051.appspot.com/o/markers%2F${data.name}.png?alt=media`,
             }}
             onPress={() => {
               setMarkerSelected(data as CombinedData);
@@ -279,12 +287,13 @@ export default function Home() {
             <View className="bg-white p-4 rounded-lg">
               {selectedData && (
                 <View className="space-y-1">
-                  <View className="w-full h-72 bg-gray-100 my-2 justify-center items-center">
-                    <Text className="text-white font-semibold">
-                      {selectedData.id_localização}
-                    </Text>
+                  <View className="h-72 bg-gray-100 rounded-lg overflow-hidden">
+                    <Image
+                      source={{ uri: selectedData.id_img }}
+                      className=" w-full h-full"
+                      resizeMode="contain"
+                    />
                   </View>
-
                   <Text className="text-base">
                     Nome:
                     <Text className="font-semibold text-base">
