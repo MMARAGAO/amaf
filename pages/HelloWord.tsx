@@ -62,7 +62,6 @@ export default function HelloWord() {
         <View>
           <TouchableOpacity
             onPress={() => {
-              setIsFirstVisit(false);
               navigation.navigate("Login" as never);
             }}
             className="bg-green-400 rounded-full px-6 py-3 flex-row items-center justify-center space-x-2"

@@ -11,6 +11,7 @@ import FontAwesome5 from "@expo/vector-icons/FontAwesome5";
 import AntDesign from "@expo/vector-icons/AntDesign";
 import FontAwesome from "@expo/vector-icons/FontAwesome";
 import Ionicons from "@expo/vector-icons/Ionicons";
+import HelloWord from "./pages/HelloWord";
 import { useUserContext } from "./context/UserContext";
 
 const Stack = createNativeStackNavigator();
@@ -129,9 +130,10 @@ function TabNavigator() {
 function StackNavigator() {
   return (
     <Stack.Navigator
-      initialRouteName="Login"
+      initialRouteName="HelloWord"
       screenOptions={{ headerShown: false }}
     >
+      <Stack.Screen name="HelloWord" component={HelloWord} />
       <Stack.Screen name="Login" component={Login} />
     </Stack.Navigator>
   );

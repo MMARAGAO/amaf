@@ -10,7 +10,6 @@ import {
 } from "react-native";
 import { DefaultTheme, TextInput } from "react-native-paper";
 import { useNavigation } from "@react-navigation/native";
-import HelloWord from "../components/HelloWord";
 import { useAppContext } from "../context/AppContext";
 import { StatusBar } from "expo-status-bar";
 import { useUserContext } from "../context/UserContext";
@@ -74,113 +73,107 @@ export default function Login() {
     },
   };
 
-  if (isFirstVisit) {
-    return <HelloWord />;
-  } else {
-    return (
-      <KeyboardAvoidingView
-        style={{ flex: 1 }}
-        behavior={Platform.OS === "ios" ? "padding" : "height"}
-      >
-        <ScrollView contentContainerStyle={{ flexGrow: 1 }}>
-          <View className="min-h-screen bg-white">
-            <StatusBar style="light" />
-            <View className="h-[32%] w-full bg-gray-800 relative justify-end">
-              <View className="absolute top-12 right-5 bg-white rounded-full w-10 h-10 overflow-hidden opacity-90">
-                <View className=" rounded-full -mt-[1px] ">
-                  <Image
-                    source={require("../assets/logo.png")}
-                    className="w-10 h-10 mx-auto"
-                  />
-                </View>
-              </View>
-              <View className="w-96 h-96 bg-gray-100/30 rounded-full -top-12 -left-20 absolute opacity-10"></View>
-              <View className="w-80 h-80 bg-gray-100/30 rounded-full -top-12 -left-20 absolute opacity-20"></View>
-              <View className="px-6 py-16">
-                <Text className="text-white text-4xl font-bold">
-                  Seja bem-vindo!
-                </Text>
-                <Text className="text-white text-lg">
-                  Faça login para continuar
-                </Text>
+  return (
+    <KeyboardAvoidingView
+      style={{ flex: 1 }}
+      behavior={Platform.OS === "ios" ? "padding" : "height"}
+    >
+      <ScrollView contentContainerStyle={{ flexGrow: 1 }}>
+        <View className="min-h-screen bg-white">
+          <StatusBar style="light" />
+          <View className="h-[32%] w-full bg-gray-800 relative justify-end">
+            <View className="absolute top-12 right-5 bg-white rounded-full w-10 h-10 overflow-hidden opacity-90">
+              <View className=" rounded-full -mt-[1px] ">
+                <Image
+                  source={require("../assets/logo.png")}
+                  className="w-10 h-10 mx-auto"
+                />
               </View>
             </View>
-            <View className="justify-between items-center px-6 h-[68%] py-10">
-              <View className="w-full space-y-2">
-                <TextInput
-                  label="Email"
-                  mode="outlined"
-                  theme={customTheme}
-                  className="w-full"
-                  placeholder="Digite seu email"
-                  selectionColor="#4ade80"
-                  cursorColor="#4ade80"
-                  underlineColor="#4ade80"
-                  activeUnderlineColor="#4ade80"
-                  activeOutlineColor="#4ade80"
-                  // cor do placeholder
-                  placeholderTextColor="#d1d5db"
-                />
-                <TextInput
-                  className="w-full"
-                  label="Senha"
-                  mode="outlined"
-                  theme={customTheme}
-                  secureTextEntry={!showPassword}
-                  placeholder="Digite sua senha"
-                  selectionColor="#4ade80"
-                  cursorColor="#4ade80"
-                  underlineColor="#4ade80"
-                  activeUnderlineColor="#4ade80"
-                  activeOutlineColor="#4ade80"
-                  placeholderTextColor="#d1d5db"
-                  right={
-                    <TextInput.Icon
-                      icon={showPassword ? "eye-off" : "eye"}
-                      onPress={() => setShowPassword(!showPassword)}
-                      color="gray"
-                    />
-                  }
-                />
-                <TouchableOpacity className="w-full">
-                  <Text className="text-green-400 text-right text-md">
-                    Esqueceu a senha?
-                  </Text>
-                </TouchableOpacity>
-              </View>
-
-              <TouchableOpacity className="bg-green-400 py-4 rounded-lg w-full">
-                <Text className="text-white text-center text-lg font-semibold">
-                  Entrar
-                </Text>
-              </TouchableOpacity>
-              <View className="flex-row w-full justify-center items-center space-x-2 px-10">
-                <View className="bg-gray-200 h-[1px] w-1/2"></View>
-                <Text className="text-center text-gray-600 text-md">Ou</Text>
-                <View className="bg-gray-200 h-[1px] w-1/2"></View>
-              </View>
-              <TouchableOpacity
-                className="rounded-xl border border-gray-300 rounded-lg items-center flex-row space-x-2 px-20 py-2"
-                onPress={signIn}
-              >
-                <Image
-                  source={require("../assets/google.png")}
-                  className="w-8 h-8"
-                />
-                <Text className="text-center font-semibold text-lg">
-                  Google
-                </Text>
-              </TouchableOpacity>
-              <View className="flex-row w-full justify-center items-center mt-4">
-                <Text className="text-gray-600">Não tem uma conta?</Text>
-                <TouchableOpacity>
-                  <Text className="text-green-400"> Cadastre-se</Text>
-                </TouchableOpacity>
-              </View>
+            <View className="w-96 h-96 bg-gray-100/30 rounded-full -top-12 -left-20 absolute opacity-10"></View>
+            <View className="w-80 h-80 bg-gray-100/30 rounded-full -top-12 -left-20 absolute opacity-20"></View>
+            <View className="px-6 py-16">
+              <Text className="text-white text-4xl font-bold">
+                Seja bem-vindo!
+              </Text>
+              <Text className="text-white text-lg">
+                Faça login para continuar
+              </Text>
             </View>
           </View>
-        </ScrollView>
-      </KeyboardAvoidingView>
-    );
-  }
+          <View className="justify-between items-center px-6 h-[68%] py-10">
+            <View className="w-full space-y-2">
+              <TextInput
+                label="Email"
+                mode="outlined"
+                theme={customTheme}
+                className="w-full"
+                placeholder="Digite seu email"
+                selectionColor="#4ade80"
+                cursorColor="#4ade80"
+                underlineColor="#4ade80"
+                activeUnderlineColor="#4ade80"
+                activeOutlineColor="#4ade80"
+                // cor do placeholder
+                placeholderTextColor="#d1d5db"
+              />
+              <TextInput
+                className="w-full"
+                label="Senha"
+                mode="outlined"
+                theme={customTheme}
+                secureTextEntry={!showPassword}
+                placeholder="Digite sua senha"
+                selectionColor="#4ade80"
+                cursorColor="#4ade80"
+                underlineColor="#4ade80"
+                activeUnderlineColor="#4ade80"
+                activeOutlineColor="#4ade80"
+                placeholderTextColor="#d1d5db"
+                right={
+                  <TextInput.Icon
+                    icon={showPassword ? "eye-off" : "eye"}
+                    onPress={() => setShowPassword(!showPassword)}
+                    color="gray"
+                  />
+                }
+              />
+              <TouchableOpacity className="w-full">
+                <Text className="text-green-400 text-right text-md">
+                  Esqueceu a senha?
+                </Text>
+              </TouchableOpacity>
+            </View>
+
+            <TouchableOpacity className="bg-green-400 py-4 rounded-lg w-full">
+              <Text className="text-white text-center text-lg font-semibold">
+                Entrar
+              </Text>
+            </TouchableOpacity>
+            <View className="flex-row w-full justify-center items-center space-x-2 px-10">
+              <View className="bg-gray-200 h-[1px] w-1/2"></View>
+              <Text className="text-center text-gray-600 text-md">Ou</Text>
+              <View className="bg-gray-200 h-[1px] w-1/2"></View>
+            </View>
+            <TouchableOpacity
+              className="rounded-xl border border-gray-300 rounded-lg items-center flex-row space-x-2 px-20 py-2"
+              onPress={signIn}
+            >
+              <Image
+                source={require("../assets/google.png")}
+                className="w-8 h-8"
+              />
+              <Text className="text-center font-semibold text-lg">Google</Text>
+            </TouchableOpacity>
+            <View className="flex-row w-full justify-center items-center mt-4">
+              <Text className="text-gray-600">Não tem uma conta?</Text>
+              <TouchableOpacity>
+                <Text className="text-green-400"> Cadastre-se</Text>
+              </TouchableOpacity>
+            </View>
+          </View>
+        </View>
+      </ScrollView>
+    </KeyboardAvoidingView>
+  );
 }
