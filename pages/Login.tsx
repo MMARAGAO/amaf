@@ -86,6 +86,14 @@ export default function Login() {
           <View className="min-h-screen bg-white">
             <StatusBar style="light" />
             <View className="h-[32%] w-full bg-gray-800 relative justify-end">
+              <View className="absolute top-12 right-5 bg-white rounded-full w-10 h-10 overflow-hidden opacity-90">
+                <View className=" rounded-full -mt-[1px] ">
+                  <Image
+                    source={require("../assets/logo.png")}
+                    className="w-10 h-10 mx-auto"
+                  />
+                </View>
+              </View>
               <View className="w-96 h-96 bg-gray-100/30 rounded-full -top-12 -left-20 absolute opacity-10"></View>
               <View className="w-80 h-80 bg-gray-100/30 rounded-full -top-12 -left-20 absolute opacity-20"></View>
               <View className="px-6 py-16">

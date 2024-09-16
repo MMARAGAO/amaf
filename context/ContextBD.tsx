@@ -25,6 +25,7 @@ interface Fruit {
 interface Location {
   id_localização: Number;
   id_fruta: Number;
+  id_img: Number;
   local: {
     long: Number;
     lat: Number;
@@ -34,6 +35,7 @@ interface Location {
 interface DataContextType {
   fruitData: Fruit[];
   locationData: Location[];
+  fetchData: () => void; // Adicionar fetchData ao contexto
 }
 
 const DataContext = createContext<DataContextType | null>(null);
@@ -42,24 +44,25 @@ const DataProvider = ({ children }: DataProviderProps) => {
   const [fruitData, setFruitData] = useState<Fruit[]>([]);
   const [locationData, setLocationData] = useState<Location[]>([]);
 
+  const fetchData = async () => {
+    const fruitSnapshot = await getDocs(collection(db, "fruits"));
+    const locationSnapshot = await getDocs(collection(db, "locations"));
+
+    const fruitList = fruitSnapshot.docs.map((doc) => doc.data() as Fruit);
+    const locationList = locationSnapshot.docs.map(
+      (doc) => doc.data() as Location
+    );
+
+    setFruitData(fruitList);
+    setLocationData(locationList);
+  };
+
   useEffect(() => {
-    const fetchData = async () => {
-      const fruitSnapshot = await getDocs(collection(db, "fruits"));
-      const locationSnapshot = await getDocs(collection(db, "location"));
-
-      const fruitList = fruitSnapshot.docs.map((doc) => doc.data() as Fruit);
-      const locationList = locationSnapshot.docs.map(
-        (doc) => doc.data() as Location
-      );
-
-      setFruitData(fruitList);
-      setLocationData(locationList);
-    };
     fetchData();
   }, []);
 
   return (
-    <DataContext.Provider value={{ fruitData, locationData }}>
+    <DataContext.Provider value={{ fruitData, locationData, fetchData }}>
       {children}
     </DataContext.Provider>
   );

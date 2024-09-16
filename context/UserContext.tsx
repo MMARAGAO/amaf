@@ -5,6 +5,7 @@ import React, {
   ReactNode,
   useEffect,
 } from "react";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
 interface User {
   name: string | null;
@@ -21,8 +22,33 @@ const UserContext = createContext<UserContextType | undefined>(undefined);
 
 export const UserProvider = ({ children }: { children: ReactNode }) => {
   const [user, setUser] = useState<User | null>(null);
+
+  useEffect(() => {
+    const loadUser = async () => {
+      try {
+        const userData = await AsyncStorage.getItem("user");
+        if (userData) {
+          setUser(JSON.parse(userData));
+        }
+      } catch (error) {
+        console.error("Failed to load user from storage", error);
+      }
+    };
+
+    loadUser();
+  }, []);
+
+  const handleSetUser = async (user: User) => {
+    try {
+      await AsyncStorage.setItem("user", JSON.stringify(user));
+      setUser(user);
+    } catch (error) {
+      console.error("Failed to save user to storage", error);
+    }
+  };
+
   return (
-    <UserContext.Provider value={{ user, setUser }}>
+    <UserContext.Provider value={{ user, setUser: handleSetUser }}>
       {children}
     </UserContext.Provider>
   );
